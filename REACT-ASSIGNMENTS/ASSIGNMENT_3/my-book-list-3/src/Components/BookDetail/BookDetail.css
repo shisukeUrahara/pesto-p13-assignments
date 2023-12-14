@@ -1,0 +1,20 @@
+.book-detail h3 {
+  color: #61dafb;
+  margin-bottom: 5px;
+}
+
+.book-detail p {
+  color: #adbac7;
+}
+
+.book-detail {
+  /* Styles for book detail */
+}
+
+.book-detail h4 {
+  margin: 0;
+}
+
+.book-detail p {
+  margin: 5px 0;
+}
