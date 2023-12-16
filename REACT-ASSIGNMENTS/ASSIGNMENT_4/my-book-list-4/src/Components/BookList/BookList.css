@@ -1,0 +1,76 @@
+/* .booklist-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px; 
+  margin-top: 20px;
+  margin-left:50%;
+}
+
+.empty-message {
+  font-size: 24px;
+  text-align: center;
+  color: var(--input-text); 
+} */
+
+.book-list-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.empty-message {
+  color: var(--input-color);
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+.filters-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* Centers the filters below the form */
+  margin-bottom: 20px;
+  background-color: var(--input-color);
+  color: var(--input-text);
+}
+
+.filters-container input,
+.filters-container select {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px; /* Adjust as needed */
+  background-color: var(--input-color);
+  color: var(--input-text);
+  border-radius: 10px;
+}
+
+.dark select {
+  background-color: var(
+    --input-background
+  ); /* Use your dark theme input background */
+  color: var(--input-text); /* Use your dark theme input text color */
+}

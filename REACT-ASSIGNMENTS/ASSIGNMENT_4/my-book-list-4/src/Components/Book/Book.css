@@ -1,0 +1,39 @@
+.book-card {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  background-color: var(--input-background);
+  color: var(--input-text);
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Add styles for the 'Show Details' and 'Delete' buttons */
+.book-card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.book-card .delete-button {
+  background-color: var(--delete-button-before);
+  color: var(--button-color);
+}
+
+.book-card .detail-button {
+  background-color: var(--button-background);
+  color: var(--button-color);
+}
+
+.book-card button:hover {
+  opacity: 0.8;
+}

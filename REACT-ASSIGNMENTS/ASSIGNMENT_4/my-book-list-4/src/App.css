@@ -1,0 +1,69 @@
+:root {
+  --background-color-dark: #333;
+  --text-color-dark: #f0f0f0;
+  --input-background-dark: #444;
+  --input-text-dark: #f0f0f0;
+  --button-background-dark: #007bff;
+  --button-text-dark: #ccc;
+  --delete-button-before-dark: #ff0000;
+  --delete-button-after-dark: #ff6666;
+
+  --background-color-light: #f0f0f0;
+  --text-color-light: #333;
+  --input-background-light: #fff;
+  --input-text-light: #333;
+  --button-background-light: #007bff;
+  --button-text-light: #fff;
+  --delete-button-before-light: #ff0000;
+  --delete-button-after-light: #ff6666;
+}
+
+.App.dark {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+  /* Apply other dark theme variables */
+}
+
+.App.light {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+  /* Apply other light theme variables */
+}
+
+.App-header {
+  background-color: var(--background-color);
+  padding: 20px;
+  text-align: center;
+}
+
+.App-header h1 {
+  color: var(--input-text);
+}
+
+.App {
+  --background-color: #333;
+  --text-color: #f0f0f0;
+}
+
+/* Define default dark theme variables */
+.dark {
+  --background-color: #333;
+  --text-color: #f0f0f0;
+  --input-background: #444;
+  --input-text: #f0f0f0;
+  --button-background: #007bff;
+  --button-text: #ccc;
+  --delete-button-before: #ff0000;
+  --delete-button-after: #ff6666;
+}
+
+.light {
+  --background-color: #f0f0f0; /* Example background color for light theme */
+  --text-color: #333; /* Example text color for light theme */
+  --input-background: #fff; /* Light background for inputs */
+  --input-text: #333; /* Dark text for inputs */
+  --button-background: #007bff; /* Blue background for buttons */
+  --button-text: #fff; /* White text for buttons */
+  --delete-button-before: #ff0000;
+  --delete-button-after: #ff6666;
+}
