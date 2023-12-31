@@ -110,13 +110,14 @@ function GiftForm() {
             {!loading ? (
                 <>
                     <Toaster message={message} />
-                    <div className="Recommendations">
+                    <Recommendations recommendations={recommendations} />
+                    {/* <div className="Recommendations">
                         {recommendations.filter(r => r.trim() !== '').map((recommendation, index) => (
                             <div key={index} className="recommendation-card">
                                 <div className="recommendation-text">{recommendation}</div>
                             </div>
                         ))}
-                    </div>
+                    </div> */}
                 </>
             ) : (
                 <Loader />
