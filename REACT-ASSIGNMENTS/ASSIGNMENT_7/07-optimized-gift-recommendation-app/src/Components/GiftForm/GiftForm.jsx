@@ -1,11 +1,11 @@
 import React, { useState, lazy } from 'react';
-import axios from 'axios';
 import Toaster from '../Toaster/Toaster';
 import Interests from '../Interests/Interests';
 import Loader from '../Loader/Loader';
 import Recommendations from '../Recommendations/Recommendations';
-
+import axios from 'axios';
 import './GiftForm.css';
+
 
 function GiftForm() {
     const [gender, setGender] = useState('Male');
