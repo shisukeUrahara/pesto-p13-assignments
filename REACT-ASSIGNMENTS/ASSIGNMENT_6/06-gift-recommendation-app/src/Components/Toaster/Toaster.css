@@ -1,0 +1,17 @@
+.Toaster {
+  padding: 10px;
+  color: #fff;
+  background-color: #555;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.Toaster.success {
+  background-color: #008000;
+}
+
+.Toaster.error {
+  background-color: #ff0000;
+}

@@ -1,0 +1,52 @@
+.GiftForm-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 50px;
+  background: url("https://cdn.midjourney.com/c448640d-a90c-4b80-9aec-438be392fee4/0_1.webp")
+    no-repeat center center;
+  background-size: cover;
+}
+
+.GiftForm {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  padding: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.GiftForm-title {
+  color: #d1403f;
+  margin-bottom: 20px;
+}
+
+.GiftForm-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.GiftForm-select,
+.GiftForm-input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.GiftForm-button {
+  padding: 12px 20px;
+  border-radius: 20px;
+  background-color: #d1403f;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.GiftForm-button:hover {
+  background-color: #aa2c2c;
+}

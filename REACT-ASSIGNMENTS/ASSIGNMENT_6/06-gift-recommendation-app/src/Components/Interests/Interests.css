@@ -1,0 +1,29 @@
+.Interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.Interest-tag {
+  display: flex;
+  align-items: center;
+  background-color: #e8e8e8;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.Interest-remove {
+  display: inline-block;
+  margin-left: 10px;
+  color: #a52828;
+  cursor: pointer;
+}
+
+.Interest-remove:hover {
+  color: #8b1f1f;
+}
