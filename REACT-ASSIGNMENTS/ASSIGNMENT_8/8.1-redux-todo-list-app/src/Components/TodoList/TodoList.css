@@ -1,0 +1,52 @@
+/* ToDoList.css */
+.todo-list {
+  max-width: 600px;
+  margin: auto;
+  padding: 50px 20px;
+  background-color: rgb(39, 40, 39, 0.3);
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  color: #ecf0f1;
+  margin-top: 100px;
+}
+
+.todo-list h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.todo-list input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #7f8c8d;
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+.todo-list button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #27ae60;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.todo-list button:hover {
+  background-color: #2ecc71;
+}
+
+.no-tasks {
+  text-align: center;
+  font-size: 20px;
+}
