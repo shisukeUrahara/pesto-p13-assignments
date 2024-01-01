@@ -1,0 +1,18 @@
+/* ShoppingCart.css */
+.shopping-cart {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+/* Additional styles for the total cost */
+.shopping-cart h2 {
+  text-align: right;
+  margin-top: 20px;
+  color: #f0f0f0;
+  font-size: 1.2em;
+}
