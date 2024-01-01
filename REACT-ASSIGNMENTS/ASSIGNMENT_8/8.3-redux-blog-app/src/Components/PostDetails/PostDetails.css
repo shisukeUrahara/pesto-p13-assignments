@@ -1,0 +1,27 @@
+.post-details {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #333;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-details h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.post-details p {
+  font-size: 1em;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+  text-align: justify;
+  margin-bottom: 0;
+}
