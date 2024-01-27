@@ -1,0 +1,48 @@
+.contactFormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* This will make the form appear centered vertically */
+  background-color: #121212; /* Dark background color */
+  color: white; /* Text color */
+}
+
+.contactForm {
+  width: 100%;
+  max-width: 500px; /* Limits the width of the form and makes it shorter */
+  background-color: #222; /* Slightly lighter dark shade for the form */
+  padding: 2rem;
+  border-radius: 8px; /* Optional: for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%; /* Full width of the form */
+  padding: 0.75rem;
+  margin-bottom: 1rem; /* Adds space between the form fields */
+  background-color: #333; /* Even lighter shade for input backgrounds */
+  border: 1px solid #444; /* Slightly visible border for inputs */
+  color: white; /* Text color */
+  border-radius: 4px; /* Optional: for rounded corners on inputs */
+}
+
+.contactForm button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff; /* Keep the button blue for a pop of color */
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+  border-radius: 4px; /* Optional: for rounded corners on button */
+}
+
+.contactForm button:hover {
+  background-color: #0056b3; /* Darken the button color on hover for interaction feedback */
+}
+
+.contactForm > div > h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
