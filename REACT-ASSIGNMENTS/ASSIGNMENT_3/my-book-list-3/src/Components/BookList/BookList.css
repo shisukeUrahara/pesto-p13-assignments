@@ -5,20 +5,19 @@
   align-items: center;
   min-height: 100vh;
   background-color: #20232a;
+}
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+}
 
-  .book-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    width: 100%;
-    max-width: 1200px;
-    justify-content: center;
-  }
-
-  .empty-message {
-    color: #ecf0f1;
-    font-size: 2em;
-    text-align: center;
-    width: 100%;
-  }
+.empty-message {
+  color: #ecf0f1;
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
 }
