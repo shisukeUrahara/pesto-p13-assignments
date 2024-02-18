@@ -1,0 +1,1 @@
+Hello, shisuke! Welcome to our command-line application.
